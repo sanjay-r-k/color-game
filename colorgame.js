@@ -25,8 +25,6 @@ easyBtn.addEventListener("click", function () {
             squares[i].style.display = "none";
         }
     }
-    // let easyMode=document.querySelector(".square")[]
-
 });
 hardBtn.addEventListener("click", function () {
     messageDisplay.textContent = "";
@@ -58,6 +56,7 @@ reset.addEventListener("click", function () {
 colorDisplay.textContent = pickedColor;
 for (let i = 0; i <= squares.length; i++) {
     squares[i].style.background = colors[i];
+    hardBtn.classList.add("selected");
     squares[i].addEventListener("click", function () {
         let clickedColor = this.style.background;
         if (clickedColor === pickedColor) {
