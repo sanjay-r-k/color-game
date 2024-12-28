@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}    
+
+.square {
+    background-color: aqua;
+    float: left;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    width: 30%;
+    border-radius: 25%;
+
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    line-height: 1.1;
+    padding: 2%;
+    background-color: rgb(132, 124, 124);
+    margin: 0;
+}
+
+.selected{
+    background-color: blue;
+}
+#stripe{
+    text-align: center;
+   
+    background-color: rgb(193, 190, 182);
+}
+#message{
+    color: white;
+}
+span{
+    font-size: 50px;
+}
+button{
+    border: none;
+    background: none;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: rgba(5, 61, 101, 0.857);
+    border-radius: 28%;
+    transform: all 0.10s;
+   
+
+}
